@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-size: auto cover;
+  background-image: url("img/dice1.jpg");
+  min-height: 100%;
+  padding: 20px;
+}
+
+body {
+  display: flex;
+}
+
+.hero {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero > div {
+  background-color: rgb(255 255 255 / 50%);
+  padding: 1rem 2rem;
+}
