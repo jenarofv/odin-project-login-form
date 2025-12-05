@@ -27,7 +27,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: calc(2rem + 2vw);
+  font-size: 2rem;
   padding: var(--box-padding);
 }
 
