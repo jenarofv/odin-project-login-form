@@ -17,8 +17,8 @@ body > main , body > header{
   padding: var(--box-padding);
 }
 
-.right {
-  background-color: white;
+main {
+  background: linear-gradient(to right, hsl(180deg, 10%, 90%), white);
   padding: var(--box-padding);
   box-sizing: border-box;
 }
