@@ -14,7 +14,8 @@ body {
 }
 
 body > * {
-  flex: 1 0 250px;
+  flex: 1 0 300px;
+  min-width: min(500px, 90vw);
 }
 
 main {
@@ -81,4 +82,10 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+@media only screen and (max-width: 640px) {
+  .tall {
+    height:fit-content ;
+  }
 }
