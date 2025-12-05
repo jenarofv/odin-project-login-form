@@ -12,14 +12,12 @@ body {
   background-color: black;
 }
 
-body > main , body > header{
+body > * {
   flex: 1 0 250px;
-  padding: var(--box-padding);
 }
 
 main {
   background: linear-gradient(to right, hsl(180deg, 10%, 90%), white);
-  padding: var(--box-padding);
   box-sizing: border-box;
 }
 
@@ -30,6 +28,7 @@ main {
   flex-direction: column;
   justify-content: center;
   font-size: calc(2rem + 2vw);
+  padding: var(--box-padding);
 }
 
 h1 {
@@ -49,4 +48,12 @@ h1 {
 .catcher {
   font-size: 1.8rem;
   font-weight: 700;
+  margin: var(--box-padding)
+}
+
+.form-container {
+  background-color: white;
+  margin-top: 80px;
+  padding: var(--box-padding);
+  box-shadow: 0 10px 50px 10px grey;
 }
