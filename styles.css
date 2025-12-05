@@ -31,6 +31,10 @@ main {
   padding: var(--box-padding);
 }
 
+h2 {
+  margin-top: 0;
+}
+
 h1 {
   background-color: rgb(255 255 255 / 70%);
   text-align: center;
@@ -56,4 +60,24 @@ h1 {
   margin-top: 80px;
   padding: var(--box-padding);
   box-shadow: 0 10px 50px 10px grey;
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+
+.input-container > * {
+  display: block;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

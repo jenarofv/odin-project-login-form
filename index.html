@@ -10,7 +10,35 @@
   <header class="hero tall"> <h1 class="rounded">awesome logo</h1></header>
   <main class="right tall rounded">
     <p class="catcher"> Log in for the latest news on our DnD campaign, fanart and the best of Pimmin's music </p>
-    <div class="form-container"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia distinctio enim nam architecto laboriosam? Reiciendis sint ut explicabo quaerat nobis accusamus nostrum qui velit, obcaecati debitis nihil architecto harum ratione?</div>
+    <div class="form-container">
+      <h2>Create your account here</h2>
+      <form action="#" method="GET">
+        <div class="input-container">
+          <label for="firstName" pattern="[A-Za-z ]" name="firstName">first name </label>
+          <input id="firstName" type="text">
+        </div>
+        <div class="input-container">
+          <label for="lastName" name="lastName"> last name </label>
+          <input id="lastName" type="text">
+        </div>
+        <div class="input-container">
+          <label for="userEmail" name="userEmail">email </label>
+          <input id="userEmail" type="email">
+        </div>
+        <div class="input-container">
+          <label for="phoneNumber" name="phoneNumber">phone number</label>
+          <input id="phoneNumber" type="number">
+        </div>
+        <div class="input-container">
+          <label for="password" name="password">password</label>
+          <input id="password" type="password">
+        </div>
+        <div class="input-container">
+          <label for="passwordVerification">verify password</label>
+          <input id="passwordVerification" type="password">
+        </div>
+      </form>
+    </div>
   </main>
 </body>
 </html>
