@@ -12,7 +12,7 @@ body {
   background-color: black;
 }
 
-body > section {
+body > main , body > header{
   flex: 1 0 250px;
   padding: var(--box-padding);
 }
