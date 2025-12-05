@@ -45,3 +45,8 @@ h1 {
 .tall {
   height: calc(100vh - var(--box-padding));
 }
+
+.catcher {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
