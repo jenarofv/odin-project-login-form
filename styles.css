@@ -95,6 +95,14 @@ input {
   padding: 10px;
 }
 
+input:valid{
+  background-color: hsl(120, 41%, 84%);
+}
+
+input[type="password"]:invalid {
+  border: 1px solid red;
+}
+
 button[type="submit"] {
   margin: 30px auto 30px 20px;
   padding: 15px 20px;
