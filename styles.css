@@ -19,7 +19,7 @@ body > * {
 }
 
 main {
-  background: linear-gradient(to right, hsl(180deg, 10%, 90%), white);
+  background: linear-gradient(to right, hsl(180deg, 10%, 80%), white);
   margin: calc(var(--box-padding) / 2);
 }
 
