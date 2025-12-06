@@ -12,33 +12,34 @@
     <p class="catcher"> Log in for the latest news on our DnD campaign, fanart and the best of Pimmin's music </p>
     <div class="form-container">
       <h2>Create your account here</h2>
-      <form action="#" method="GET">
+      <form action="#" method="GET" id="createAccount">
         <div class="input-container">
-          <label for="firstName" pattern="[A-Za-z ]" name="firstName">first name </label>
-          <input id="firstName" type="text">
+          <label for="firstName" name="firstName">first name </label>
+          <input id="firstName" type="text" pattern="[A-Za-z ]{2,30}" required>
         </div>
         <div class="input-container">
           <label for="lastName" name="lastName"> last name </label>
-          <input id="lastName" type="text">
+          <input id="lastName" type="text" pattern="[A-Za-z ]{2,30}" required>
         </div>
         <div class="input-container">
           <label for="userEmail" name="userEmail">email </label>
-          <input id="userEmail" type="email">
+          <input id="userEmail" type="email" required>
         </div>
         <div class="input-container">
           <label for="phoneNumber" name="phoneNumber">phone number</label>
-          <input id="phoneNumber" type="number">
+          <input id="phoneNumber" type="number" min="100000" maxlength="9999999999" required>
         </div>
         <div class="input-container">
           <label for="password" name="password">password</label>
-          <input id="password" type="password">
+          <input id="password" type="password" required>
         </div>
         <div class="input-container">
           <label for="passwordVerification">verify password</label>
-          <input id="passwordVerification" type="password">
+          <input id="passwordVerification" type="password" required>
         </div>
       </form>
     </div>
+    <button form="createAccount" type="submit" class="rounded">Create account</button>
   </main>
 </body>
 </html>
