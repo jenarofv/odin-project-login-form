@@ -33,6 +33,10 @@ main {
   padding: var(--box-padding);
 }
 
+h1 {
+  font-family: Metamorphous;
+}
+
 h2 {
   margin-top: 0;
 }
